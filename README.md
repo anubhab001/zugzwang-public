@@ -6,7 +6,7 @@ This [repository](https://github.com/anubhab001/zugzwang-public) contains a refe
 * Python 3
 * [Pycryptodome](https://pypi.org/project/pycryptodome/)
 
-## Test Cases ##
+## Test Cases ###
 Case | 1
 ---- | ----
 <span style="color:yellow;">Key</span>|             <span style="color:yellow;">10000000000000000000000000000000</span>
