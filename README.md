@@ -1,12 +1,14 @@
-# ZUGZWANG Cipher (Concrete Instance) #
+# ZUGZWANG (Concrete Instance) #
 
-This [repository](https://github.com/anubhab001/zugzwang-public) contains a reference implementation of the proof-of-concept block cipher cipher, ZUGZWANG (concrete instance/encryption). The cipher is basically a four-round Feistel construction, but has an innate backdoor. The key is revealed through the ciphertext with the plaintext matches a backdoor entry, otherwise the cipher is secure. See this paper on  [ePrint](https://eprint.iacr.org/2022/???) for its specification and other details.
+This [repository](https://github.com/anubhab001/zugzwang-public) contains a reference implementation of the proof-of-concept block cipher, ZUGZWANG (concrete instance/encryption). The cipher is basically a four-round Feistel construction, but has an innate backdoor. The key is revealed through the ciphertext with the plaintext matches a backdoor entry, otherwise the cipher is secure. See this paper on [ePrint](https://eprint.iacr.org/2022/???) for its specification and other details.
 
 ## Requirement ##
 * Python 3
 * [Pycryptodome](https://pypi.org/project/pycryptodome/)
 
-## Test Cases ###
+## Test Cases ##
+ <font size="1"> 
+
 Case | 1
 ---- | ----
 <span style="color:yellow;">Key</span>|             <span style="color:yellow;">10000000000000000000000000000000</span>
@@ -66,3 +68,5 @@ Key|             3cf28000471a74d22d81b6c98a3dbe33
 Plaintext|       9eac455e039a58928e163658e1493a20
 Ciphertext|      7a7700e9f5f4f974e9ba2834160cf284
 <span style="color:gray;">_Note_</span>| <span style="color:gray;">_This test case is currently hardcoded_</span>
+
+</font>
