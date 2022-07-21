@@ -1,6 +1,6 @@
-# ZUGZWANG Cipher (Concrete Instance) #
+# ZUGZWANG (Concrete Instance) #
 
-This [repository](https://github.com/anubhab001/zugzwang-public) contains a reference implementation of the proof-of-concept block cipher cipher, ZUGZWANG (concrete instance/encryption). The cipher is basically a four-round Feistel construction, but has an innate backdoor. The key is revealed through the ciphertext with the plaintext matches a backdoor entry, otherwise the cipher is secure. See this paper on  [ePrint](https://eprint.iacr.org/2022/???) for its specification and other details.
+This [repository](https://github.com/anubhab001/zugzwang-public) contains a reference implementation of the proof-of-concept block cipher, ZUGZWANG (concrete instance/encryption). The cipher is basically a four-round Feistel construction, but has an innate backdoor. The key is revealed through the ciphertext with the plaintext matches a backdoor entry, otherwise the cipher is secure. See this paper on  [ePrint](https://eprint.iacr.org/2022/???) for its specification and other details.
 
 ## Requirement ##
 * Python 3
